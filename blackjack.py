@@ -30,7 +30,7 @@ while game_still_going:
                 user_score += sum(user_hand)
 
             
-        print("went over")
+        print("went over 21")
     
     check_for_blackjack(dealer_hand, user_hand)
     print(f"initial user hand: {user_hand}")
