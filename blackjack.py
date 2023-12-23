@@ -44,9 +44,9 @@ while game_still_going:
             new_score = sum(user_hand)
             if sum(user_hand) > 21:
                 ace_value(user_hand)
-                print(f"Your cardz: {user_hand}, Current Scorez: {sum(user_hand)}")
+                print(f"Your cards: {user_hand}, Current Score: {sum(user_hand)}")
             else:
-                print(f"Your cardz: {user_hand}, Current Scorez: {sum(user_hand)}")
+                print(f"Your cards: {user_hand}, Current Score: {sum(user_hand)}")
             
         elif another_card == 'p' and dealer_score < 16:
             dealer_hand += random.sample(cards, 1)
